@@ -1,0 +1,11 @@
+
+
+- id : intero - MEDIUMINT - PRIMARY-KEY AUTOINCREMENT UNIQUE NOT-NULL
+- marchio: stringa - VARCHAR(50) NOT-NULL
+- modello: stringa - VARCHAR(80) NOT-NULL
+- alimentazione: stringa - VARCHAR(50)
+- potenza: stringa - VARCHAR(50)
+- anno: data - YEAR
+- prezzo: intero - INT NOT-NULL
+- km_percorsi: intero - MEDIUMINT NOT-NULL
+- macchine_disponibili : intero - TINYINT - NOT-NULL
